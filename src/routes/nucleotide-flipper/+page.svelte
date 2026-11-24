@@ -81,7 +81,6 @@
 
 <header class="page-head">
 	<div class="head-text">
-		<p class="eyebrow">Sequence utility</p>
 		<h1>Nucleotide Flipper</h1>
 		<p class="page-desc">
 			Complement a strand, reverse-complement it, or transcribe a coding strand. Results update as
@@ -223,18 +222,6 @@
 </details>
 
 <style>
-	.page-head {
-		max-width: 62ch;
-		margin-bottom: 18px;
-	}
-
-	.page-desc {
-		margin-top: 5px;
-		color: var(--text-muted);
-		font-size: 0.8125rem;
-		line-height: 1.55;
-	}
-
 	.options {
 		display: flex;
 		align-items: flex-end;

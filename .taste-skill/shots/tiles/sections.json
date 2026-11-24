@@ -1,0 +1,36 @@
+{
+ "url": "http://127.0.0.1:4173/gene-analyzer.html",
+ "views": {
+  "desktop": {
+   "width": 1440,
+   "height": 900,
+   "navH": 0,
+   "scrollHeight": 1140,
+   "screens": 1.27,
+   "sections": [
+    {
+     "n": 1,
+     "tag": "div",
+     "id": "",
+     "cls": "content-inner svelte-vr1z90",
+     "top": 0,
+     "h": 1140,
+     "hScreens": 1.27,
+     "offGrid": 240,
+     "tiles": [
+      {
+       "file": "desktop-sec-01-a.jpg",
+       "scrollY": 0
+      },
+      {
+       "file": "desktop-sec-01-b.jpg",
+       "scrollY": 240
+      }
+     ]
+    }
+   ],
+   "consoleErrors": []
+  }
+ },
+ "at": "2026-11-24T18:05:54.617Z"
+}

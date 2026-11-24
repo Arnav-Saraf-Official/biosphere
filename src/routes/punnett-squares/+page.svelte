@@ -52,7 +52,6 @@
 
 <header class="page-head">
 	<div class="head-text">
-		<p class="eyebrow">Cross prediction</p>
 		<h1>Punnett Squares</h1>
 		<p class="page-desc">
 			Enter a genotype for each parent. The grid grows with the number of possible gametes, and
@@ -284,18 +283,6 @@
 {/if}
 
 <style>
-	.page-head {
-		max-width: 62ch;
-		margin-bottom: 18px;
-	}
-
-	.page-desc {
-		margin-top: 5px;
-		color: var(--text-muted);
-		font-size: 0.8125rem;
-		line-height: 1.55;
-	}
-
 	.config-body {
 		display: flex;
 		align-items: flex-end;
@@ -331,7 +318,7 @@
 	}
 
 	.examples-label {
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
 		color: var(--text-muted);
@@ -418,7 +405,7 @@
 	}
 
 	.gamete-prob {
-		font-size: 0.625rem;
+		font-size: 0.75rem;
 		font-weight: 500;
 		color: var(--text-muted);
 	}
@@ -427,7 +414,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		min-height: 44px;
+		min-height: 48px;
 		padding: 6px 4px;
 		border: 1px solid transparent;
 		border-radius: var(--r-sm);
@@ -457,8 +444,9 @@
 	}
 
 	.cell-genotype {
-		font-size: 0.8125rem;
-		font-weight: 600;
+		font-size: 0.9375rem;
+		font-weight: 650;
+		letter-spacing: 0.02em;
 	}
 
 	.selection-bar {
@@ -513,16 +501,16 @@
 
 	.outcome {
 		display: grid;
-		grid-template-columns: 12px 1fr 62px 52px;
+		grid-template-columns: 14px 1fr 76px 54px;
 		align-items: center;
-		gap: 8px;
+		gap: 9px;
 		width: 100%;
-		padding: 5px 7px;
+		padding: 6px 8px;
 		border: 1px solid transparent;
 		border-radius: var(--r-sm);
 		background: transparent;
 		text-align: left;
-		font-size: 0.8125rem;
+		font-size: var(--fs-sm);
 	}
 
 	.outcome:hover {
@@ -535,8 +523,8 @@
 	}
 
 	.swatch {
-		width: 12px;
-		height: 12px;
+		width: 14px;
+		height: 14px;
 		border-radius: 3px;
 		border: 1px solid;
 	}
@@ -546,7 +534,7 @@
 	}
 
 	.outcome-bar {
-		height: 5px;
+		height: 6px;
 		border-radius: var(--r-full);
 		background: var(--surface-3);
 		overflow: hidden;
@@ -567,7 +555,7 @@
 
 	.outcome-note {
 		padding: 4px 14px 14px;
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		line-height: 1.5;
 		color: var(--text-muted);
 	}

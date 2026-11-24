@@ -818,7 +818,6 @@
 				aria-labelledby="link-title"
 			>
 				{#if parentChoice}
-					<p class="eyebrow">Parent–child</p>
 					<h2 id="link-title" class="dialog-title">
 						Attach {parentChoiceChild} to which of {parentChoiceParent}'s couples?
 					</h2>
@@ -855,7 +854,6 @@
 						</button>
 					</div>
 				{:else}
-					<p class="eyebrow">Relationship</p>
 					<h2 id="link-title" class="dialog-title">
 						How are {linkLabels.a} and {linkLabels.b} related?
 					</h2>
@@ -976,12 +974,11 @@
 	}
 
 	.inspector {
-		border-left: 1px solid var(--border);
 		padding: 14px;
 		display: flex;
 		flex-direction: column;
 		gap: 14px;
-		background: var(--surface);
+		background: var(--surface-inset);
 		overflow-y: auto;
 		max-height: 720px;
 	}
@@ -995,7 +992,7 @@
 		display: flex;
 		align-items: center;
 		gap: 5px;
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		font-weight: 600;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
@@ -1045,7 +1042,7 @@
 
 	.individual-meta {
 		color: var(--text-muted);
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		white-space: nowrap;
 	}
 

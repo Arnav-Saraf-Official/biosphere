@@ -134,7 +134,6 @@
 
 <header class="page-head">
 	<div class="head-text">
-		<p class="eyebrow">Sequence translation</p>
 		<h1>Gene Analyzer</h1>
 		<p class="page-desc">
 			Paste DNA or RNA and translate it with the standard genetic code. Detected regions are
@@ -434,42 +433,29 @@
 </section>
 
 <style>
-	.page-head {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 18px;
-		flex-wrap: wrap;
-		margin-bottom: 18px;
-	}
-
-	.head-text {
-		max-width: 62ch;
-	}
-
-	.page-desc {
-		margin-top: 5px;
-		color: var(--text-muted);
-		font-size: 0.8125rem;
-		line-height: 1.55;
-	}
-
-	.head-actions {
-		display: flex;
-		gap: 6px;
-		flex-wrap: wrap;
-	}
-
 	.layout {
 		display: grid;
 		grid-template-columns: minmax(0, 1.55fr) minmax(280px, 1fr);
 		gap: 14px;
-		align-items: start;
+		align-items: stretch;
+	}
+
+	/* Let the sequence panel meet the options panel, with the input taking the slack. */
+	.input-panel {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.input-panel .panel-body {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
 	}
 
 	.sequence-input {
+		flex: 1;
 		min-height: 190px;
-		font-size: 0.8125rem;
+		font-size: var(--fs-sm);
 		line-height: 1.8;
 	}
 
@@ -513,10 +499,6 @@
 		transition: background-color var(--dur-1) var(--ease-out), color var(--dur-1) var(--ease-out);
 	}
 
-	.seg-item + .seg-item {
-		border-left: 1px solid var(--border);
-	}
-
 	.seg-item[aria-pressed='true'] {
 		background: var(--surface);
 		color: var(--text);
@@ -542,7 +524,7 @@
 
 	.region-label .label {
 		white-space: nowrap;
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
 		color: var(--text-muted);
@@ -600,12 +582,12 @@
 	}
 
 	.utr-range {
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		color: var(--text-muted);
 	}
 
 	.utr-reason {
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		color: var(--text-muted);
 	}
 

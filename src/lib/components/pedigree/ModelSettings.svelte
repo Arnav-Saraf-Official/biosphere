@@ -125,7 +125,7 @@
 		</p>
 	</div>
 
-	<div class="block">
+	<div class="block models">
 		<p class="block-title">
 			Inheritance models
 			<Tooltip text="Excluded models are removed from the probability distribution entirely. They are not assigned 0%." />
@@ -256,6 +256,15 @@
 		gap: 20px 26px;
 	}
 
+	/* The model list is the tallest block, so it takes its own full-width row
+	   instead of forcing empty space beneath its neighbours. */
+	.models {
+		order: 1;
+		grid-column: 1 / -1;
+		padding-top: 16px;
+		border-top: 1px solid var(--border);
+	}
+
 	.block {
 		display: flex;
 		flex-direction: column;
@@ -300,10 +309,6 @@
 		transition: background-color var(--dur-1) var(--ease-out), color var(--dur-1) var(--ease-out);
 	}
 
-	.seg-item + .seg-item {
-		border-left: 1px solid var(--border);
-	}
-
 	.seg-item[aria-pressed='true'] {
 		background: var(--surface);
 		color: var(--text);
@@ -311,10 +316,10 @@
 	}
 
 	.model-list {
-		display: flex;
-		flex-direction: column;
-		gap: 0;
-		margin-top: 2px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+		gap: 0 24px;
+		margin-top: 4px;
 	}
 
 	.frequency {

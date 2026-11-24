@@ -1173,14 +1173,14 @@
 
 	.menu-sub {
 		display: block;
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		font-weight: 450;
 		color: var(--text-muted);
 	}
 
 	.menu-label {
 		padding: 6px 8px 2px;
-		font-size: 0.625rem;
+		font-size: 0.75rem;
 		font-weight: 650;
 		letter-spacing: 0.07em;
 		text-transform: uppercase;
@@ -1225,7 +1225,7 @@
 
 	.menu-note {
 		padding: 4px 8px 6px;
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		line-height: 1.45;
 		color: var(--warning);
 	}

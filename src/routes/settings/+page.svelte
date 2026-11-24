@@ -47,8 +47,7 @@
 </svelte:head>
 
 <header class="page-head">
-	<div>
-		<p class="eyebrow">Preferences</p>
+	<div class="head-text">
 		<h1>Settings</h1>
 		<p class="page-desc">
 			These defaults apply across every tool. Analysis settings change how pedigrees are evaluated;
@@ -170,24 +169,6 @@
 </section>
 
 <style>
-	.page-head {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 16px;
-		flex-wrap: wrap;
-		margin-bottom: 18px;
-		max-width: 72ch;
-	}
-
-	.page-desc {
-		margin-top: 5px;
-		max-width: 64ch;
-		color: var(--text-muted);
-		font-size: 0.8125rem;
-		line-height: 1.55;
-	}
-
 	.panel + .panel {
 		margin-top: 14px;
 	}
@@ -210,7 +191,7 @@
 
 	.hint {
 		margin-top: 4px;
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		line-height: 1.5;
 		color: var(--text-muted);
 	}

@@ -141,7 +141,6 @@
 
 <header class="page-head">
 	<div class="head-text">
-		<p class="eyebrow">Missing information</p>
 		<h1>Pedigree Solver</h1>
 		<p class="page-desc">
 			Pick the inheritance pattern, record what is known, and leave the rest blank. Every blank
@@ -422,33 +421,6 @@
 </section>
 
 <style>
-	.page-head {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 18px;
-		flex-wrap: wrap;
-		margin-bottom: 18px;
-	}
-
-	.head-text {
-		max-width: 58ch;
-	}
-
-	.page-desc {
-		margin-top: 5px;
-		color: var(--text-muted);
-		font-size: 0.8125rem;
-		line-height: 1.55;
-	}
-
-	.head-actions {
-		display: flex;
-		align-items: center;
-		gap: 6px;
-		flex-wrap: wrap;
-	}
-
 	.name-input {
 		width: 190px;
 	}
@@ -497,7 +469,7 @@
 		padding: 7px 12px;
 		background: var(--surface-inset);
 		border-bottom: 1px solid var(--border);
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		font-weight: 600;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;
@@ -568,7 +540,7 @@
 	.distribution-values {
 		display: flex;
 		gap: 10px;
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		color: var(--text-muted);
 		flex-wrap: wrap;
 	}
@@ -589,7 +561,7 @@
 
 	.genotype-prob {
 		font-weight: 400;
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		color: var(--text-muted);
 	}
 
@@ -605,7 +577,7 @@
 		gap: 14px;
 		flex-wrap: wrap;
 		margin-top: 10px;
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		color: var(--text-muted);
 	}
 
@@ -670,7 +642,7 @@
 	}
 
 	.section-label {
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		font-weight: 600;
 		letter-spacing: 0.05em;
 		text-transform: uppercase;

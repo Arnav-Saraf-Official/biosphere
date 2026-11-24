@@ -148,7 +148,7 @@
 	}
 
 	.orf-coords {
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		color: var(--text-muted);
 		white-space: nowrap;
 	}
@@ -225,7 +225,7 @@
 		min-width: 0;
 		padding: 1px 0;
 		font-family: var(--font-mono);
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		font-weight: 600;
 		color: var(--accent-strong);
 		background: var(--accent-soft);
@@ -248,7 +248,7 @@
 
 	.truncated {
 		padding-top: 6px;
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		color: var(--text-muted);
 	}
 
@@ -267,7 +267,7 @@
 	}
 
 	.protein-meta {
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		color: var(--text-muted);
 	}
 </style>

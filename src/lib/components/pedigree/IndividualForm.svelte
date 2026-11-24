@@ -348,7 +348,7 @@
 	.optional {
 		font-weight: 400;
 		color: var(--text-muted);
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 	}
 
 	.status-grid {
@@ -431,7 +431,7 @@
 	}
 
 	.partner-note {
-		font-size: 0.6875rem;
+		font-size: 0.75rem;
 		color: var(--text-muted);
 		padding: 0 9px;
 	}
