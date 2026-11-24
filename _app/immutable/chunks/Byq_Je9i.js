@@ -1,0 +1,1 @@
+import{v as m}from"./DYMeVDBa.js";let f=0;const i=m({items:[]});function e(t){i.items=i.items.filter(s=>s.id!==t)}function d(t,s="info",n=3200){const o=++f;i.items=[...i.items.slice(-2),{id:o,message:t,tone:s}],typeof window<"u"&&setTimeout(()=>e(o),n)}function c(t){e(t)}export{d as a,c as d,i as t};

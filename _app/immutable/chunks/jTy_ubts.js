@@ -1,0 +1,1 @@
+import{C as o,E as v,F as y,G as f,H as l,I as m,J as p,K as i,M as T,N as A}from"./DYMeVDBa.js";import{B as E}from"./DJSe-Hyr.js";function g(d,_,e){var s;o&&(s=A,v());var r=new E(d);y(()=>{var a=_()??null;if(o){var h=l(s),c=h===T,u=a!==null;if(c!==u){var t=m();p(t),r.anchor=t,i(!1),r.ensure(a,a&&(n=>e(n,a))),i(!0);return}}r.ensure(a,a&&(n=>e(n,a)))},f)}export{g as c};
